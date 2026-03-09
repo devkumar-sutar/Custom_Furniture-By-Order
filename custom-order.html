@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Custom Furniture Order</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+    <span class="logo-icon">VS</span>
+    <span class="logo-text">WoodCraft</span>
+</div>
+
+<div class="menu-toggle" onclick="toggleMenu()">
+☰
+</div>
+
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="furniture.html">Furniture</a></li>
+<li><a href="custom-order.html" class="active">Custom Order</a></li>
+<li><a href="carpenters.html">Carpenters</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a class="login-btn" href="login.html">Login</a></li>
+</ul>
+
+
+</nav>
+
+</header>
+
+
+<section class="order-section">
+
+<h1>Custom Furniture Order</h1>
+
+<p>Design your furniture as per your requirement</p>
+
+<div class="order-form">
+
+<form id="orderForm">
+
+<label>Full Name</label>
+<input type="text" required>
+
+<label>Phone Number</label>
+<input type="tel" required>
+
+<label>Furniture Type</label>
+
+<select required>
+
+<option>Bed</option>
+<option>Sofa</option>
+<option>Dining Table</option>
+<option>Wardrobe</option>
+<option>Study Table</option>
+<option>TV Unit</option>
+
+</select>
+
+<label>Length (feet)</label>
+<input type="number">
+
+<label>Width (feet)</label>
+<input type="number">
+
+<label>Height (feet)</label>
+<input type="number">
+
+<label>Wood Type</label>
+
+<select>
+
+<option>Teak Wood</option>
+<option>Sheesham Wood</option>
+<option>Plywood</option>
+<option>Engineered Wood</option>
+
+</select>
+
+<label>Color / Polish</label>
+<input type="text">
+
+<label>Budget (₹)</label>
+<input type="number">
+
+<label>Upload Design (Optional)</label>
+<input type="file">
+
+<label>Address</label>
+<textarea rows="4"></textarea>
+
+<button type="submit" class="btn">
+Submit Order
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+© 2026 WoodCraft Furniture
+</p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

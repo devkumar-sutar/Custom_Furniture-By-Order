@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Find Carpenters</title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+    <span class="logo-icon">VS</span>
+    <span class="logo-text">WoodCraft</span>
+</div>
+
+<div class="menu-toggle" onclick="toggleMenu()">
+☰
+</div>
+
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="furniture.html">Furniture</a></li>
+<li><a href="custom-order.html">Custom Order</a></li>
+<li><a href="carpenters.html" class="active">Carpenters</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a class="login-btn" href="login.html">Login</a></li>
+</ul>
+
+
+</nav>
+
+</header>
+
+
+<section class="page-title">
+
+<h1>Find Skilled Carpenters</h1>
+<p>Choose experienced carpenters for your furniture work</p>
+
+</section>
+
+<section class="search-section">
+
+<input 
+type="text" 
+id="citySearch" 
+placeholder="Search carpenter by city..."
+onkeyup="searchCity()">
+
+</section>
+
+
+<section class="carpenters-section">
+
+<div class="carpenters-grid">
+
+
+<div class="carpenter-card" data-city="pune">
+
+<img src="./images/ramesh-patil.jpg">
+
+<h3>Ramesh Patil</h3>
+
+<p>Experience: 10 Years</p>
+
+<p class="city">Location: Pune</p>
+
+<p>⭐ 4.8 Rating</p>
+
+<a class="btn">View Profile</a>
+
+</div>
+
+
+<div class="carpenter-card" data-city="mumbai">
+
+<img src="./images/suresh.jpg">
+
+<h3>Suresh Shinde</h3>
+
+<p>Experience: 8 Years</p>
+
+<p class="city">Location: Mumbai</p>
+
+<p>⭐ 4.6 Rating</p>
+
+<a class="btn">View Profile</a>
+
+</div>
+
+
+<div class="carpenter-card">
+
+<img src="./images/mahesh.jpg">
+
+<h3>Mahesh Jadhav</h3>
+
+<p>Experience: 12 Years</p>
+
+<p>Location: Nashik</p>
+
+<p>⭐ 4.9 Rating</p>
+
+<a class="btn" href="#">View Profile</a>
+
+</div>
+
+
+<div class="carpenter-card">
+
+<img src="./images/ajay.jpg">
+
+<h3>Ajay More</h3>
+
+<p>Experience: 7 Years</p>
+
+<p>Location: Pune</p>
+
+<p>⭐ 4.5 Rating</p>
+
+<a class="btn" href="#">View Profile</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<p>
+© 2026 WoodCraft Furniture
+</p>
+
+</footer>
+
+</body>
+
+</html>
